@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 def mile_to_km(mile: float) -> int:
-   bir_mile = 1.6
+   bir_mile = 0.62137 # BUG fixed
    return int(mile*bir_mile)
 def km_to_mile(km: int) -> float:
-   bir_km = 0.62137
+   bir_km = 1.6 # BUG fixed
    return km/bir_km
 
 print("\t\tSEÇENEKLER")
